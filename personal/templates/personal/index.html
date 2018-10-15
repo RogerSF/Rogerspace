@@ -1,0 +1,28 @@
+{% extends "personal/header.html" %}
+{% block content %}
+{% load staticfiles %}
+<section class="main">
+    
+    <div class="post">
+        <div class="post-header index">
+            <h1 class="title">
+
+                <a href="{% static 'personal/2018/09/21/Hello-Hexo/'%}">
+                    Welcome to Roger's Space!
+                </a>
+            </h1>
+            <div class="post-info">
+                    <span class="date"><font size="5">2018-09-21</font></span>
+            </div>
+        </div>
+        <div class="content"><font size="4">
+            <p>Hey! Welcome to my website! Well, I wasn't expecting guests. Haha, my name is Roger. I’m a graduating student from <a href="http://www.techmgmt.ust.hk/en/home/" target="_blank" rel="noopener">HKUST</a>, studying computer engineering and finance.
+            <br><br>
+            Generally, I also have a passion for data analysis and its application in the finance industry. With the recent development in machine learning algorithms, I believe there’s a tremendous amount of value to be explored within the financial data pool and I’m eager to make my contribution to the industry. For more informantion about my previous projects, please visit <a href="https://github.com/RogerSF" target="_blank" rel="noopener">my gitHub</a>.
+            <br><br>
+            Cheers!</p></font>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

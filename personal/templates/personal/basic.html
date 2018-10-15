@@ -1,0 +1,13 @@
+{% extends "personal/header.html" %}
+{% block content %}
+{% load staticfiles %}
+<section class="main">
+    <div class="post">
+    <div class="content">
+    {% for c in content%}
+         <p>{{c}}</p>
+    {% endfor %}
+    </div>
+    </div>
+</section>
+{% endblock %}
